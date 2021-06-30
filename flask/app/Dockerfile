@@ -1,5 +1,5 @@
 FROM openvino/ubuntu18_dev
-#USER root
+USER root
 RUN apt-get update && apt-get install -y git python3-pip
 #FROM python:3.8-ubi8
 WORKDIR /app 
